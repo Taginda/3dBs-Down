@@ -1,0 +1,132 @@
+:root{
+	--font-color1: #FCF8E8;
+	--font-color2: #FB4243;
+}
+	* {
+	
+	font-family: PoplarStd;
+	color: var(--font-color1);
+	scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: PoplarStd;
+src: url('PoplarStd.otf');
+}
+
+body {
+	
+	height: 100vh;
+	background-image: url("E:/Coding/3dBs DOWN/Resources/Band01.jpg");
+	background-attachment: fixed;
+	
+	
+	}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 54.5%;
+	background-color: #000000;
+	position: fixed;
+	left: 432px;
+	height: 120px;
+	margin-top: -8px;
+	overflow: hidden;
+	
+}
+	
+.logo1 {
+height: 150px;
+width: 150px;
+padding-left: 20px;		
+}
+
+
+.gif1 {
+	text-align: center;
+	font-size: 28px;
+	padding-bottom: 5px;
+	padding-top: 150px;
+}
+
+.gif1 img {
+	display: block;
+	margin: auto;
+	padding-bottom: 5px;	
+}
+.gif1 a:hover {
+	color: var(--font-color2);
+  cursor: pointer;
+}
+	
+
+main {
+	width: 55%;
+	margin: auto;
+	background-color: #000000;
+	
+}
+
+nav {
+	width: 45%;
+	
+	
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  list-style-type: none;
+  font-size: 30px;
+  padding-right: 20px;
+  padding-top: 30px;
+  
+ 
+}
+	
+nav > ul > li:hover {
+  color: var(--font-color2);
+  cursor: pointer;
+}
+
+li > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+section {
+	padding-bottom: 100px;
+}
+	
+
+#media {
+color: #FB4243;
+font-size: 50px;
+padding-bottom: 1%;
+text-align: center;
+
+} 	
+	
+.video-div1 {
+position: absolute;
+top: 117px;
+left: 107px;
+
+
+}	
+
+.tv {
+	height: 500px;
+	width: 600px;
+	
+}
+
+.container {
+	position: relative;
+}

@@ -17,7 +17,7 @@ src: url('PoplarStd.otf');
 body {
 	
 	height: 100vh;
-	background-image: url(Resources/Band01.jpg");
+	background-image: src="Resources/Band01.jpg";
 	background-attachment: fixed;
 	
 	
@@ -122,8 +122,8 @@ left: 107px;
 }	
 
 .tv {
-	display: block;
-	margin: auto;
+	height: 500px;
+	width: 600px;
 	
 }
 

@@ -17,7 +17,7 @@ src: url('PoplarStd.otf');
 body {
 	
 	height: 100vh;
-	background-image: url("E:/Coding/3dBs DOWN/Resources/Band01.jpg");
+	background-image: url(Resources/Band01.jpg");
 	background-attachment: fixed;
 	
 	

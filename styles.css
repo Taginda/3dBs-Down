@@ -130,3 +130,18 @@ left: 107px;
 .container {
 	position: relative;
 }
+
+@media (max-width: 768px)and (min-width: 481px) {
+	.nav {
+		font-size: 10px;
+	}
+	.tv {
+		transform: scale(0.5)
+	}
+	.video-div1 {
+		transform: scale(0.5)
+	}
+	.gif1 img {
+		transform: scale(0.5)
+	}
+}

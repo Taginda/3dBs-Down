@@ -19,8 +19,6 @@ body {
 	height: 100vh;
 	background-image: url("Resources/Band01.jpg");
 	background-attachment: fixed;
-	
-	
 	}
 
 header {
@@ -70,8 +68,7 @@ main {
 
 nav {
 	width: 45%;
-	
-	
+		
 }
 
 nav > ul {
@@ -113,35 +110,24 @@ text-align: center;
 
 } 	
 	
-.video-div1 {
-position: absolute;
-top: 117px;
-left: 107px;
-
-
-}	
-
-.tv {
-	height: 500px;
-	width: 600px;
+.video-div {
+	display: block;
+	margin: auto;
 	
 }
 
-.container {
-	position: relative;
+.tv {
+	display: block;
+	margin: auto;
+	height: 500px;
+	width: 600px;
 }
 
-@media (max-width: 768px)and (min-width: 481px) {
-	.nav {
-		font-size: 10px;
-	}
-	.tv {
-		transform: scale(0.5)
-	}
-	.video-div1 {
-		transform: scale(0.5)
-	}
-	.gif1 img {
-		transform: scale(0.5)
+.video1 {
+	position: relative;
+	bottom: 384px;
+	left: 327px;
+	
+}
 	}
 }

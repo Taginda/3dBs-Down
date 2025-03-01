@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
 <title>3dBs Down</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, intital-scale=1.0">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="CSS/styles.css">
 <style>
 @font-face {
 font-family: PoplarStd;
@@ -15,8 +15,8 @@ src: url('PoplarStd.otf');
 <body>
 
 <header>
+<nav>
 <img class="logo1" src="Resources/3dbs_Logo_01.png"/>
-<nav> 
 <ul class="nav-list">
 <li><a href="https://3dbsdown.bandcamp.com/music">STORE</a></li>
 <li>EVENTS</li>
@@ -27,7 +27,7 @@ src: url('PoplarStd.otf');
 </header>
 <main>
 <section>
-<div class="gif1">
+<div class="album-info">
 <img src="Resources/3dbsdown album.gif">
 <p>NEW ALBUM GET YOUR RETALIATION IN FIRST - AVAILABLE NOW ON <a href="https://open.spotify.com/artist/24JxYyUEejTJXO4XPM8BNb?si=yOBqw7H6R_OrNTJ0TwMHJQ">SPOTIFY</a> OR BUY IT TO KEEP ON <a href="https://3dbsdown.bandcamp.com/album/get-your-retaliation-in-first">CD/VINYL/DOWNLOAD</a>.</p>
 </div>
@@ -35,11 +35,20 @@ src: url('PoplarStd.otf');
 <section>
 <h3 id="media">MEDIA</h3>
 <div class="video-div">
-<img class="tv" src="Resources/TV.jpg"/>
-<video controls class="video1" width="300" poster="Resources/video1.jpg"> 
-<source src="Resources/video1.mp4" type="video/mp4"/>
+<video id="myVideo" controls class="video1" poster="Resources/video1.jpg"> 
+<source id="mp4_src" src="Resources/video1.mp4" type="video/mp4">
 </video>
 </div>
+<div class="announcement">
+<p> MORE VIDEOS COMING SOON!</p>
+</div>
+
+
+
+
+
+
+
 
 
 <!--

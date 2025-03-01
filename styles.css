@@ -151,7 +151,11 @@ text-align: center;
  @media (max-width: 480px) {                                                                                                                                           
 	 
 	 header {
-		width: 52vw;
+		width: 100vw;
+	}
+	
+	body {
+		width: 100vw;
 	}
 	
   .album-info img {

@@ -180,6 +180,7 @@ text-align: center;
 	.album-info img {
 	  width: 200px;
 	  height: 205px;
+	font-size: 20px;
   }
 
 	.album-info > p {
@@ -187,7 +188,6 @@ text-align: center;
 	  margin: auto;
 	 width: 50%;
 	padding-top: 20px;
-	font-size: 13px;
   }
 	 
     .logo1 {
@@ -252,7 +252,8 @@ padding-top: 60px;
 	  display: block;
 	  margin: auto;
 	 width: 50%;
-	padding-top: 20px;	 
+	padding-top: 20px;
+	font-size: 20px;
   }
 	
     .logo1 {

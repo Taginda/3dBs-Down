@@ -79,6 +79,7 @@ main {
 	margin: auto;
 	background-color: #000000;
 	opacity: 95%;
+
 	
 }
 
@@ -88,6 +89,7 @@ main {
 		color: #000000;
 		font-size: 50px;
 	}
+
 
 .album-info {
 	text-align: center;
@@ -154,7 +156,10 @@ text-align: center;
 }
 
 
- @media (max-width: 480px) {                                                                                                                                           
+ @media (max-width: 480px) {
+	body {
+		background-image: none;
+	}
 	 
 	 header {
 		width: 100vw;
@@ -205,6 +210,9 @@ padding-top: 60px;
 
 
 @media (max-width: 768px)and (min-width: 481px) {
+	body {
+		background-image: none;
+	}
 	
 	header: {
 		width: 100vw;
@@ -264,6 +272,7 @@ padding-top: 90px;
 		width: 54vw;
 	}
 	
+	
 	.album-info img {
 	  width: 400px;
 	  height: 405px;
@@ -303,4 +312,6 @@ padding-top: 100px;
 .announcement {
 	font-size: 18px;
 }
-}
+
+ 
+}   

@@ -168,6 +168,10 @@ text-align: center;
 	 nav {
 		width: 40%;
 	}
+
+	  nav > ul {
+	  font-size: 15px;
+  }
 	
 	main {
 		width: 50vw;
@@ -177,10 +181,14 @@ text-align: center;
 	  width: 200px;
 	  height: 205px;
   }
-   nav > ul {
-	  font-size: 15px;
+
+	.album-info > p {
+	  display: block;
+	  margin: auto;
+	 width: 50%;
+	padding-top: 20px;	 
   }
-  
+	 
     .logo1 {
 height: 90px;
 width: 90px;
@@ -226,6 +234,10 @@ padding-top: 60px;
 		width: 40%;
 	}
 
+	nav > ul {
+	  font-size: 15px;
+  	}
+
 	main {
 		width: 100vw;
 	}
@@ -234,10 +246,14 @@ padding-top: 60px;
 	  width: 200px;
 	  height: 205px;
   }
-   nav > ul {
-	  font-size: 15px;
+
+.album-info > p {
+	  display: block;
+	  margin: auto;
+	 width: 50%;
+	padding-top: 20px;	 
   }
-  
+	
     .logo1 {
 height: 90px;
 width: 90px;	

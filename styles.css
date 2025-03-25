@@ -133,7 +133,7 @@ text-align: center;
 
 .video1 {
 	position: relative;
-	top: 71px;
+	top: 67px;
 	left: 143px;
 	width: 325px;
 	height: 284px;
@@ -334,16 +334,16 @@ padding-top: 60px;
 }
 
 .video-div {
-	background-size: 400px 350px;
-	height: 350px;
-	width: 400px;
+	background-size: 380px 320px;
+	height: 320px;
+	width: 380px;
 }
 
 .video1 {
-	width: 205px;
-	height: 181px;
-	left: 71px;
-	top: 55px;
+	width: 195px;
+	height: 170px;
+	left: 66px;
+	top: 47px;
 	
 }
 
@@ -414,6 +414,7 @@ padding-top: 90px;
 	width: 210px;
 	height: 186px;
 	left: 76px;
+	top: 66px;
 	
 }
 
@@ -464,8 +465,9 @@ padding-top: 100px;
 
 .video1 {
 	width: 210px;
-	height: 186px;
+	height: 190px;
 	left: 76px;
+	top: 66px;
 	
 }
 

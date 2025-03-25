@@ -3,8 +3,14 @@
 <head>
 <title>3dBs Down</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, intital-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+
+
 <style>
 @font-face {
 font-family: PoplarStd;
@@ -19,9 +25,9 @@ src: url('PoplarStd.otf');
 <img class="logo1" src="Resources/3dbs_Logo_01.png"/>
 <ul class="nav-list">
 <li><a href="https://3dbsdown.bandcamp.com/music">STORE</a></li>
-<li>EVENTS</li>
+<li><a href="#events">EVENTS</a> </li>
 <li><a href="#media">MEDIA</a></li>
-<li>CONTACT</li>
+<li><a href="#contact">CONTACT</a></li>
 </ul>
 </nav>
 </header>
@@ -36,25 +42,68 @@ src: url('PoplarStd.otf');
 <h3 id="media">MEDIA</h3>
 <div class="video-div">
 <video id="myVideo" controls class="video1" poster="Resources/video1.jpg"> 
-<source id="mp4_src" src="Resources/video1.mp4" type="video/mp4">
-</video>
-<!--
-<div class="video-div2">
-<video controls class="video1" width="400" poster="Resources/video2.jpg"> 
-<source src="Resources/video2.mp4" type="video/mp4"/>
+<source id="vid1" src="Resources/video1.mp4" type="video/mp4"/>
+<source class ="video2" id="vid2" src="Resources/video2.mp4" type="video/mp4"/>
 </video>
 </div>
--->
-</div>
-<div class="announcement">
-<p> MORE VIDEOS COMING SOON!</p>
+<div id="controls">
+<button id="button1">PREVIOUS VIDEO</button>
+<button id="button2">NEXT VIDEO</button>
 </div>
 </section>
-<section id="gigs">
-<!--<iframe src="https://calendar.google.com/calendar/embed?src=3dbsdown%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+<section class="events">
+<h3 id="events">EVENTS</h3>
+<table>
+<thead>
+<tr>
+<th scope="col"><span class="red">DATE</span></th>
+<th scope="col"><span class="red">VENUE</span></th>
+<th scope="col"><span class="red">ADDRESS</span></th>
+<th scope="col"><span class="red">TICKETS</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22/03/25</td>
+<td>THE PIG</td>
+<td><a href="https://maps.app.goo.gl/ocdw7WdjShpPL6qi7">37 WHITEROCK, HASTINGS TN34 1JL</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/bring-your-nan-2-redeemon-plus-supports-tickets-1094331628359?aff=oddtdtcreator"><i class="fa-solid fa-ticket-simple ticket"></i></a></td>
+</tr>
+<tr>
+<td>19/07/25</td>
+<td>POCO LOCO</td>
+<td><a href="https://maps.app.goo.gl/WCW8xezHw7Hm9tuw7">58-60 High St, Chatham ME4 4DS</a></td>
+<td><i class="fa-solid fa-ticket-simple ticket"></i></a></td>
+</tr>
+<tr>
+<td>26/07/25</td>
+<td>HEROFEST</td>
+<td><a href="https://maps.app.goo.gl/TVTTxXfnkjgsNxc39">Leo's Red Lion, Crete Hall Road, Gravesend, United Kingdom, DA119AA</a></td>
+<td><a href="https://good-show.co.uk/events/2047?fbclid=IwY2xjawJLwLRleHRuA2FlbQIxMAABHQJm5ZV6TV5a2lmSIbllttjpuxnaT3xGnOvsIZpYvNvcfCFL011pl6oCww_aem_ikhFI31i91e6FzlBkbsVjg"><i class="fa-solid fa-ticket-simple ticket"></i></a></td>
+</tr>
+</tbody>
+</table>
 </section>
-
+<section id="profile">
+<h3 id="contact">CONTACT</h3>
+<div class="links">
+   <a href="mailto:tagewood@hotmail.co.uk" target="-blank"><i class="fa fa-envelope icon" aria-hidden="true" style="font-size: 40px"></i></a>
+  <a href="https://www.facebook.com/3dBsdown" target="_blank"><i class="fa-brands fa-square-facebook icon " aria-hidden="true" style="font-size: 40px"></i></a>
+  <a href="https://www.instagram.com/3dbsdown/" target="_blank"><i class="fa-brands fa-instagram icon" aria-hidden="true" style="font-size: 40px"></i></a>
+  </div>
+  <div class="subscribe">
+  <p>FOR <span class="red">EVENT</span> UPDATES AND <span class="red">NEWS</span> PLEASE SUBSCRIBE TO OUR <span class="red">MAILING LIST</span> BELOW</p>
+  </div>
+  <form id="subsribe-email" method="POST" action="https://script.google.com/macros/s/AKfycbzCxWx-Ge2iELtbCiM-WAZ7cTUmYgeF2Q8NHU7GgKaoHmb3cQI1BoM-gz8Rd9N6KuGX/exec">
+  <label for="email">EMAIL</label>
+  <div class="mailing-list"><input class="name"name="Name" type="text" placeholder="NAME" required/></div>
+  <div class="mailing-list"><input  type="email" name="Email" placeholder="xxxxx@3dbsdown.com" required/></div>
+  <button id="button3" type="submit">SUBSCRIBE</button>
+  </form>
+  
+  
+</section>
 </main>
-<script src="./script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

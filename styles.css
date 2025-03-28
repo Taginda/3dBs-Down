@@ -247,7 +247,7 @@ th, td:last-of-type{
 	 width: 250px;
 	 color: var(--font-color1);
 	 font-size: 25px;
-	 border: 5px solid var(--font-color2);
+	 border: 5px solid var(--font-color1);
 	 background-color: black;
 	 text-align: center;
 	 padding-top: 5px;

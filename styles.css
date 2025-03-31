@@ -219,7 +219,6 @@ th, td:last-of-type{
 	font-size: 28px;
 	text-align: center;
 	padding-top: 10%;
-	 background-color: black;
  }
  
  .subscribe > p {
@@ -286,15 +285,8 @@ th, td:last-of-type{
 	}
 }
 
-.subscribe-div {
-	 display: flex;
-	 justify-content: center;
-	background-color: black;
-	width: 100%;
-}
 
-
-  
+ 
   /* Responsive */
  
  @media (max-width: 480px) {
@@ -373,10 +365,6 @@ th, td{
 
 #button1:hover, #button2:hover, #button3:hover {
 	transform: scale(0.6);
-}
-
-.subscribe-div {
-	padding-bottom: 5%
 }
 
 input {
@@ -462,9 +450,6 @@ padding-top: 90px;
 	transform: scale(0.7);
 }
 
-.subscribe-div {
-	padding-bottom: 5%
-}
 
 input {
 	transform: scale(0.8)
@@ -541,10 +526,6 @@ table {
 
 #button1:hover, #button2:hover, #button3:hover {
 	transform: scale(0.8);
-}
-
-.subscribe-div {
-	padding-bottom: 5%
 }
 
 input {
